@@ -1,0 +1,53 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: hsl(0, 0%, 12%);
+    height: 80%;
+    padding: 2.2rem 1.1rem;
+}
+
+.profile-pic img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-info p{
+    color: hsl(75, 94%, 57%);
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+}
+
