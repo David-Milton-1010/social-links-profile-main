@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Inter', sans-serif;
+}
+
 body{
     background-color: hsl(0, 0%, 8%);
     height: 100svh;
@@ -20,7 +24,8 @@ body{
     color: white;
     background-color: hsl(0, 0%, 12%);
     height: 80%;
-    padding: 2.2rem 1.1rem;
+    padding: 1.2rem 1.6rem;
+    border-radius: 8px;
 }
 
 .profile-pic img{
@@ -33,21 +38,48 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1.2rem;
 }
 
 .profile-info p{
     color: hsl(75, 94%, 57%);
+    padding: 6px 0 6px 0;
+}
+
+.profile-bio{
+    font-size: 14px;
 }
 
 .social-links{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding-top: 12px;
+}
+
+.social-links button{
+    width: 100%;
+    height: 40px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 20%);
+    margin: 8px auto;
+    color: hsl(0, 0%, 100%);
+}
+
+.social-links button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    border: 1px solid hsl(75, 94%, 57%);
 }
 
 .social-links a{
-    color: hsl(0, 0%, 100%);
+    /* color: hsl(0, 0%, 100%); */
     text-decoration: none;
-    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    /* margin: 20px 0; */
 }
+
+
 
